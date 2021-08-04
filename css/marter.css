@@ -20,3 +20,15 @@ h1 {
 	font-size: 1.5rem;
 	line-height: 1.7;
 }
+
+.item:nth-child(1) {
+	font-size: 2rem;
+	color: blue;
+	grid-row: span 2;
+	display: grid;
+	align-content: center;
+}
+
+/*===Media Query====*/
+@media screen and (max-width: 768px) {
+}
